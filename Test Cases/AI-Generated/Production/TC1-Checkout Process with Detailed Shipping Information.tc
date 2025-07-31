@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>499e298f-bbba-4361-92ec-4641bb4c9f3a</id>
+        </flow>
+    </customField>
+    <description>Navigate to the homepage, add products to the cart, enter detailed shipping information, and complete the order while verifying the thank you page.</description>
+    <name>TC1-Checkout Process with Detailed Shipping Information</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>329e6fbc-bf35-4e8d-9836-d5509351f3f6</testCaseGuid>
+    <variable>
+        <defaultValue>'{{address}}'</defaultValue>
+        <description>Input data variable</description>
+        <id>bb97e5a9-f969-420a-a1c4-49072db2c97a</id>
+        <masked>false</masked>
+        <name>input_address2</name>
+    </variable>
+    <variable>
+        <defaultValue>'New York'</defaultValue>
+        <description>Input data variable</description>
+        <id>aba9603c-aa0f-4f7a-b0f3-d03222260ac6</id>
+        <masked>false</masked>
+        <name>input_city2</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>77abc150-b32e-4dfa-b315-f98beecc331b</id>
+        <masked>false</masked>
+        <name>input_email</name>
+    </variable>
+    <variable>
+        <defaultValue>'John'</defaultValue>
+        <description>Input data variable</description>
+        <id>b75db092-6618-44de-a27c-8ccf26fa6a29</id>
+        <masked>false</masked>
+        <name>input_firstName2</name>
+    </variable>
+    <variable>
+        <defaultValue>'Doe'</defaultValue>
+        <description>Input data variable</description>
+        <id>19eff372-def2-46ac-acd6-7f93a6bd41e6</id>
+        <masked>false</masked>
+        <name>input_lastName2</name>
+    </variable>
+    <variable>
+        <defaultValue>'123456789'</defaultValue>
+        <description>Input data variable</description>
+        <id>dccb7c65-41e9-4048-90f2-aa506fa20ff1</id>
+        <masked>false</masked>
+        <name>input_phone2</name>
+    </variable>
+    <variable>
+        <defaultValue>'NY'</defaultValue>
+        <description>Input data variable</description>
+        <id>7179df31-6e68-4fec-b2ef-427b23fdc3c3</id>
+        <masked>false</masked>
+        <name>input_state2</name>
+    </variable>
+    <variable>
+        <defaultValue>'1234'</defaultValue>
+        <description>Input data variable</description>
+        <id>ea4ebf57-eed7-43ca-9743-5f8a941b0d79</id>
+        <masked>false</masked>
+        <name>input_zipCode2</name>
+    </variable>
+    <variable>
+        <defaultValue>'\\\\31 52206-case-749'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>7b55996b-2fc9-4342-930c-19f87fc8014b</id>
+        <masked>false</masked>
+        <name>label_storageColor_for</name>
+    </variable>
+    <variable>
+        <defaultValue>'\\\\31 52207-case-752'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>35105274-b684-4743-a3d8-925b1bdfafb6</id>
+        <masked>false</masked>
+        <name>label_storageColor_for_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'512 GB'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>8d5939d2-3166-433e-a0e7-c010cc42ddec</id>
+        <masked>false</masked>
+        <name>label_storageColor_internalText</name>
+    </variable>
+    <variable>
+        <defaultValue>'Blue'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>9c9dea53-8ad2-4ef6-8682-d5efb3886cc2</id>
+        <masked>false</masked>
+        <name>label_storageColor_internalText_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'Samsung'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>882570c2-09ff-4a7e-ae40-d807fcb427f7</id>
+        <masked>false</masked>
+        <name>link_brandNames_internalHasText</name>
+    </variable>
+    <variable>
+        <defaultValue>'2'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>cb18de9a-75c2-4af9-9419-e14e06a09282</id>
+        <masked>false</masked>
+        <name>link_brandNames_liNthOfType</name>
+    </variable>
+</TestCaseEntity>

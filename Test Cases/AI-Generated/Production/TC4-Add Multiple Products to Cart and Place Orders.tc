@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>22e52acb-7e17-4b55-b2f6-e25a24a88755</id>
+        </flow>
+    </customField>
+    <description>Navigate to the homepage, add products to the cart, and place orders while verifying the homepage after each action.</description>
+    <name>TC4-Add Multiple Products to Cart and Place Orders</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>24923a02-1752-403f-8941-97ce7039e415</testCaseGuid>
+</TestCaseEntity>

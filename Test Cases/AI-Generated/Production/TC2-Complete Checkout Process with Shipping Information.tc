@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>8318aabb-ea22-47ff-b258-d087fa51c25d</id>
+        </flow>
+    </customField>
+    <description>Navigate to the cart, enter shipping details, proceed to payment, and complete the order while verifying the homepage.</description>
+    <name>TC2-Complete Checkout Process with Shipping Information</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>1ec9c4fe-75db-42b4-8785-94e97188dd6d</testCaseGuid>
+    <variable>
+        <defaultValue>'adsgdukah'</defaultValue>
+        <description>Input data variable</description>
+        <id>205a3f15-4bce-41eb-adb0-97640f61b220</id>
+        <masked>false</masked>
+        <name>input_address</name>
+    </variable>
+    <variable>
+        <defaultValue>'lkskdjk'</defaultValue>
+        <description>Input data variable</description>
+        <id>10cdc843-ed34-430d-9737-f503c626e233</id>
+        <masked>false</masked>
+        <name>input_city</name>
+    </variable>
+    <variable>
+        <defaultValue>'Vivian'</defaultValue>
+        <description>Input data variable</description>
+        <id>13b855d7-5ee7-4b24-ba67-7187d19e5efc</id>
+        <masked>false</masked>
+        <name>input_firstName</name>
+    </variable>
+    <variable>
+        <defaultValue>'Nguyen'</defaultValue>
+        <description>Input data variable</description>
+        <id>1b90c1c2-e888-4264-97bf-218762f36718</id>
+        <masked>false</masked>
+        <name>input_lastName</name>
+    </variable>
+    <variable>
+        <defaultValue>'1234t5'</defaultValue>
+        <description>Input data variable</description>
+        <id>89ec797d-08d3-4bbc-b8ee-050bb8505072</id>
+        <masked>false</masked>
+        <name>input_phone</name>
+    </variable>
+    <variable>
+        <defaultValue>'lkdskldfjklas'</defaultValue>
+        <description>Input data variable</description>
+        <id>8534adf6-78b9-4ac6-9448-ef3a63b59264</id>
+        <masked>false</masked>
+        <name>input_state</name>
+    </variable>
+    <variable>
+        <defaultValue>'fjsjdasl'</defaultValue>
+        <description>Input data variable</description>
+        <id>72225616-ddb6-41e0-a8b2-dfc0a5c3e4b2</id>
+        <masked>false</masked>
+        <name>input_zipCode</name>
+    </variable>
+    <variable>
+        <defaultValue>'Apple'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>a1928bdd-95e2-40c0-b6b3-6ac502b884d4</id>
+        <masked>false</masked>
+        <name>link_brandNames_internalHasText</name>
+    </variable>
+    <variable>
+        <defaultValue>'1'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>c554eda5-0728-4318-9242-25180f5a401a</id>
+        <masked>false</masked>
+        <name>link_brandNames_liNthOfType</name>
+    </variable>
+</TestCaseEntity>

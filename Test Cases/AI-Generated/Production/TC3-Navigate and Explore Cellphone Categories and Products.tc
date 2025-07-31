@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>25f4b8bb-6a0e-44b7-8a6c-74095af180df</id>
+        </flow>
+    </customField>
+    <description>Navigate to the homepage, explore various cellphone brands and products, and verify the homepage after interactions.</description>
+    <name>TC3-Navigate and Explore Cellphone Categories and Products</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>12892d22-63bf-4092-a52b-135a55fd30c9</testCaseGuid>
+    <variable>
+        <defaultValue>'Apple'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>97ad7355-8c65-4cb4-8f77-854f7b543c8b</id>
+        <masked>false</masked>
+        <name>link_brandNames_internalHasText</name>
+    </variable>
+    <variable>
+        <defaultValue>'1'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>e6633d52-b9de-416b-81e9-0302ef14c38a</id>
+        <masked>false</masked>
+        <name>link_brandNames_liNthOfType</name>
+    </variable>
+</TestCaseEntity>

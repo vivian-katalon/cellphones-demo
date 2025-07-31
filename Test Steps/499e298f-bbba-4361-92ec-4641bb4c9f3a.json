@@ -1,0 +1,33 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Hover over link phone2",
+        "step 3: Click on link brandNames (samsung) -> Navigate to page '/category/*'",
+        "step 4: Click on button addToCart",
+        "step 5: Click on label storageColor ( 512Gb)",
+        "step 6: Click on label storageColor (blue)",
+        "step 7: Click on button buy",
+        "step 8: Click on link goToCart -> Navigate to page '/cart'",
+        "step 9: Click on button proceedToCheckout -> Navigate to page '/checkout/info'",
+        "step 10: Click on input email",
+        "step 11: Enter input value in input email",
+        "step 12: Click on button continueToShipping -> Navigate to page '/checkout/shipping-address'",
+        "step 13: Click on input firstName2",
+        "step 14: Enter input value in input firstName2",
+        "step 15: Click on input lastName2",
+        "step 16: Enter input value in input lastName2",
+        "step 17: Click on input address2",
+        "step 18: Enter input value in input address2",
+        "step 19: Click on input zipCode2",
+        "step 20: Enter input value in input zipCode2",
+        "step 21: Click on input city2",
+        "step 22: Enter input value in input city2",
+        "step 23: Click on input state2",
+        "step 24: Enter input value in input state2",
+        "step 25: Click on input phone2",
+        "step 26: Enter input value in input phone2",
+        "step 27: Click on button continueToPayment -> Navigate to page '/checkout/payment'",
+        "step 28: Click on button completeOrder2 -> Navigate to page '/thank-you/*'",
+        "step 29: Take full page screenshot as checkpoint"
+    ]
+}

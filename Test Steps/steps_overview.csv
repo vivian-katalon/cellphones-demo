@@ -1,0 +1,89 @@
+Flow ID,Name,Description,Test Steps,Flow Priority,Status
+3,Navigate and Explore Cellphone Categories and Products,"Navigate to the homepage, explore various cellphone brands and products, and verify the homepage after interactions.","Step 1: Navigate to /
+Step 2: Hover over span object
+Step 3: Click on link brandNames (apple) -> Navigate to page '/category/*'
+Step 4: Click on link iPhone15ClearCase -> Navigate to page '/product/*'
+Step 5: Click on link kCellphoneShop -> Navigate to page '/'
+Step 6: Click on link selectiPhone15Case -> Navigate to page '/product/*'
+Step 7: Click on link apple -> Navigate to page '/category/*'
+Step 8: Hover over span object
+Step 9: Click on link apple
+Step 10: Click on link iPhone16PlusNewSale -> Navigate to page '/product/*'
+Step 11: Click on link kCellphoneShop -> Navigate to page '/'
+Step 12: Click on link productSale -> Navigate to page '/product/*'
+Step 13: Hover over link phone
+Step 14: Click on link selectApple -> Navigate to page '/category/*'
+Step 15: Click on link samsung
+Step 16: Click on div categoryContent -> Navigate to page ''
+Step 17: Take full page screenshot as checkpoint
+",High,NEW
+4,Add Multiple Products to Cart and Place Orders,"Navigate to the homepage, add products to the cart, and place orders while verifying the homepage after each action.","Step 1: Navigate to /
+Step 2: Click on button addToCart
+Step 3: Click on button buy
+Step 4: Click on label pink
+Step 5: Click on button buy
+Step 6: Hover over link iPhone15ClearCase
+Step 7: Click on link placeOrder
+Step 8: Click on button addToCart2
+Step 9: Hover over link iPhone15ClearCase
+Step 10: Click on link placeOrder -> Navigate to page '/cart'
+Step 11: Click on link kCellphoneShop -> Navigate to page '/'
+Step 12: Click on link goToCart -> Navigate to page '/cart'
+Step 13: Click on link kCellphoneShop -> Navigate to page '/'
+Step 14: Click on link selectiPhone15Case -> Navigate to page ''
+Step 15: Take full page screenshot as checkpoint
+",Medium,NEW
+2,Complete Checkout Process with Shipping Information,"Navigate to the cart, enter shipping details, proceed to payment, and complete the order while verifying the homepage.","Step 1: Navigate to /
+Step 2: Click on span goToCart -> Navigate to page '/cart'
+Step 3: Click on button proceedToCheckout -> Navigate to page '/checkout/shipping-address'
+Step 4: Click on input firstName
+Step 5: Enter input value in input firstName
+Step 6: Press key Tab on input firstName
+Step 7: Enter input value in input lastName
+Step 8: Press key Tab on input lastName
+Step 9: Enter input value in input address
+Step 10: Press key Tab on input address
+Step 11: Enter input value in input zipCode
+Step 12: Press key Tab on input zipCode
+Step 13: Enter input value in input city
+Step 14: Press key Tab on input city
+Step 15: Enter input value in input state
+Step 16: Press key Tab on input state
+Step 17: Enter input value in input phone
+Step 18: Click on button continueToPayment -> Navigate to page '/checkout/payment'
+Step 19: Click on button completeOrder -> Navigate to page '/'
+Step 20: Hover over link phone
+Step 21: Click on link brandNames (apple) -> Navigate to page '/category/*'
+Step 22: Click on link iPhone15ClearCase -> Navigate to page ''
+Step 23: Take full page screenshot as checkpoint
+",Low,NEW
+1,Checkout Process with Detailed Shipping Information,"Navigate to the homepage, add products to the cart, enter detailed shipping information, and complete the order while verifying the thank you page.","Step 1: Navigate to /
+Step 2: Hover over link phone2
+Step 3: Click on link brandNames (samsung) -> Navigate to page '/category/*'
+Step 4: Click on button addToCart
+Step 5: Click on label storageColor ( 512Gb)
+Step 6: Click on label storageColor (blue)
+Step 7: Click on button buy
+Step 8: Click on link goToCart -> Navigate to page '/cart'
+Step 9: Click on button proceedToCheckout -> Navigate to page '/checkout/info'
+Step 10: Click on input email
+Step 11: Enter input value in input email
+Step 12: Click on button continueToShipping -> Navigate to page '/checkout/shipping-address'
+Step 13: Click on input firstName2
+Step 14: Enter input value in input firstName2
+Step 15: Click on input lastName2
+Step 16: Enter input value in input lastName2
+Step 17: Click on input address2
+Step 18: Enter input value in input address2
+Step 19: Click on input zipCode2
+Step 20: Enter input value in input zipCode2
+Step 21: Click on input city2
+Step 22: Enter input value in input city2
+Step 23: Click on input state2
+Step 24: Enter input value in input state2
+Step 25: Click on input phone2
+Step 26: Enter input value in input phone2
+Step 27: Click on button continueToPayment -> Navigate to page '/checkout/payment'
+Step 28: Click on button completeOrder2 -> Navigate to page '/thank-you/*'
+Step 29: Take full page screenshot as checkpoint
+",Trivial,NEW
